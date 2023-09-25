@@ -26,6 +26,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "../upload-ai-api/prisma/seed.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
